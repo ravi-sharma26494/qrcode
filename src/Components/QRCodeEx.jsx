@@ -101,7 +101,7 @@ const QRCodeEx = () => {
             onError={webcamError}
             onScan={webcamScan}
             legacyMode={false}
-            facingMode="user"
+            facingMode="environment"
             />
           </div>
           <div className="card-footer rounded mb-1">
